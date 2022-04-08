@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* background-color: black; */
+}
+
+body{
+    background-color: navajowhite;
+    width: 100vw;
+    height: 100vh;
+}
+
+button{
+    font-size: 1rem;
+    text-align: center;
+    width: 100px;
+    height: 50px;
+    padding: 4px;
+    margin-top: 0.5rem;
+    color: black;
+    background-color: navajowhite;
+    border-radius: 1rem;
+}
+button:nth-of-type(6){
+    font-size: 2rem;
+    background-color: burlywood;
+}
+
+
+cite{
+    transform: rotate(-90deg);
+    font-size: 1rem;
+    position: fixed;
+    left: -68px;
+    top: 155px;
+}
+
+#c2{
+    position: fixed;
+    /* background-color: blue; */
+    right: 0;
+    bottom: 0;
+}
+
+.flexCentered{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.controls{
+    position: fixed;
+    /* display: flex; */
+    top: 10px;
+    left: 10px;
+}
+
+.largeFont{
+    font-size: 2rem;
+    padding: 0;
+    margin: 0;
+}
+
+.actions{
+    display: block;
+    margin-left: 2rem;
+    width: 150px;
+}
